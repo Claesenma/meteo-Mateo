@@ -1,1 +1,1 @@
-# MeteoMateo
+# meteo-mateo

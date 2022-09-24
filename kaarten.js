@@ -1,4 +1,4 @@
-locaties = ["Brugge", "Brussel", "Wideumont", "Liege", "Helchteren"]
+locaties = ["Brugge", "Helchteren", "Brussel", "Liege", "Wideumont"]
 const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
 const days = ["Zo", "Ma", "Di", "Wo", "Do", "Vr", "Za"];
 const days2 = ["Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"];

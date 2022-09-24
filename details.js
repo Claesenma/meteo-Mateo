@@ -52,7 +52,7 @@ fetch(url)
     document.getElementById("p4").innerHTML = data2.uvindex;
     document.getElementById("home-btn1").href = "index.html?stad="+data.address;
     document.getElementById("today-btn1").href = "details.html?dag=1&stad="+data.address;
-    document.getElementById("maps-btn1").href = "kaarten.html";
+    document.getElementById("maps-btn1").href = "kaarten.html?";
 
   })
   .catch(error => console.log(error))

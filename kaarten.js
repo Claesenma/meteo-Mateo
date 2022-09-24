@@ -1,7 +1,7 @@
 locaties = ["Brugge", "Brussel", "Wideumont", "Liege", "Helchteren"]
 const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
 const days = ["Zo", "Ma", "Di", "Wo", "Do", "Vr", "Za"];
-const days2 = ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"];
+const days2 = ["Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"];
 
 function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
@@ -108,7 +108,7 @@ function getData5() {
 function show_day_data(day_num) {
   const today = new Date()
   const day = new Date(today)
-  day.setDate(day.getDate() + i)
+  day.setDate(day.getDate() + day_num)
   const weekday = day.getDay()
   const string = days2[weekday] + " " + data1.days[day_num].datetime.slice(8, 10) + "/" + data1.days[day_num].datetime.slice(5, 7) + "/" + data1.days[day_num].datetime.slice(0, 4)
 

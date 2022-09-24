@@ -39,7 +39,7 @@ function search(city) {
         document.getElementById("p1").innerHTML = data.address;
         document.getElementById("home-btn1").href = "index.html?stad="+data.address;
         document.getElementById("today-btn1").href = "details.html?dag=1&stad="+data.address;
-        document.getElementById("maps-btn1").href = "kaarten.html";
+        document.getElementById("maps-btn1").href = "kaarten.html?";
         document.getElementById("day" + numbers[i] + "-span1").innerHTML = string;
         document.getElementById("day" + numbers[i] + "-span2").innerHTML = string2;
         document.getElementById("day" + numbers[i] + "-btn1").href = "details.html?dag="+numbers[i]+"&stad="+data.address;}
